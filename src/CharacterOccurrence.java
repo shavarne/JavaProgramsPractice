@@ -23,7 +23,7 @@ public class CharacterOccurrence {
     }
 
     public static void main(String[] args) {
-        String str = "hello world";
+        String str = "hello jenkins i am program ";
         System.out.println("str = " + str);
         Map<Character, Integer> charCountMap = countCharacterOccurrence(str);
 
