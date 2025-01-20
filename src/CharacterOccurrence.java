@@ -6,7 +6,7 @@ public class CharacterOccurrence {
     public static Map<Character, Integer> countCharacterOccurrence(String str) {
         // Initialize the HashMap to store character counts
         Map<Character, Integer> charCountMap = new HashMap<>();
-
+        
         // Iterate through each character in the string
         for (char c : str.replaceAll("\\s+", "").toCharArray()) {
             // Check if the character is already in the HashMap
@@ -24,6 +24,7 @@ public class CharacterOccurrence {
 
     public static void main(String[] args) {
         String str = "hello world";
+        System.out.println("str = " + str);
         Map<Character, Integer> charCountMap = countCharacterOccurrence(str);
 
         // Print the character counts
